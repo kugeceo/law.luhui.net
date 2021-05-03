@@ -1,7 +1,12 @@
 # 鲁虺法律法规资源集合器
 # law.luhui.net
-law.luhui.net
 
+#自定义域名
+http://law.luhui.net
+http://falv.luhui.net/
+http://fagui.luhui.net/
+
+#代码托管运营在
 
 
 本项目来自**中华人民共和国法律**，依据《**中华人民共和国著作权法**》第五条，**不适用于该法**，所以属于**公有领域**。
