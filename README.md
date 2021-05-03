@@ -20,7 +20,7 @@ law.luhui.net
 1. 项目内的法律文本仅保留现行的一份。
 2. 所有的法律条文均从原始版本开始构建；接着将每个修正案的内容覆盖与修正。如果有人想要对比版本间的差异，则可以利用git中的版本比较。
 
-**如果对版本差异比较、排版格式有意见，请不吝[issue](https://github.com/DannyVim/Chinese_Laws/issues)区**
+**如果对版本差异比较、排版格式有意见，请不吝[issue](https://github.com/kugeceo/law.luhui.net/issues)区**
 
 ## 现有内容
 
