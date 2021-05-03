@@ -2,9 +2,15 @@
 # law.luhui.net
 
 #自定义域名
+
 http://law.luhui.net
-http://falv.luhui.net/
-http://fagui.luhui.net/
+
+
+http://falv.luhui.net
+
+
+http://fagui.luhui.net
+
 
 #代码托管运营在
 
