@@ -14,7 +14,11 @@ http://fagui.luhui.net
 
 #代码托管运营在netlify
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/53dcffa6-6b9c-47cf-9729-40eb02701e17/deploy-status)](https://app.netlify.com/sites/falv/deploys)
 
+#免费域名演示
+
+https://falv.netlify.app
 
 本项目来自**中华人民共和国法律**，依据《**中华人民共和国著作权法**》第五条，**不适用于该法**，所以属于**公有领域**。
 
