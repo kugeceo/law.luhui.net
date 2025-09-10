@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/iconv-lite@0.6.3/dist/iconv-lite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/encoding-japanese@2.0.0/encoding.min.js"></script>
     <!-- 动态标题 -->
-    <title id="page-title">鲁虺法律法规图书馆 http://law.luhui.net |法律法规数据库|法律论文|法律图书,法律法规数据库|法律数据库|法规数据库|中国法律门户网站|法律法规资源搜索管理集合器</title>
+    <title id="page-title">鲁虺法网 http://law.luhui.net 鲁虺法律法规网|鲁虺法律法规图书馆|法律法规数据库|法律论文|法律图书,法律法规数据库|法律数据库|法规数据库|中国法律门户网站|法律法规资源搜索管理集合器</title>
     <style>
 /* 基础样式 */
 body {
@@ -341,23 +341,23 @@ body.dark-mode #scroll-controls button:hover {
 <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
 <div class="mb-4 md:mb-0">
 <h1 class="text-2xl md:text-3xl font-bold text-gray-900">
-    <i class="fa fa-people-arrows text-blue-600 mr-2"></i>鲁虺法律法规网
+    <i class="fa fa-balance-scale text-blue-600 mr-2"></i>鲁虺法律法规网
 </h1>
-<p class="text-gray-500 text-sm">社会人文数据，点亮人类文明希望之光！</p>
+<p class="text-gray-500 text-sm">普及推广法律法规，规范约束人类之恶！</p>
 </div>
 <div class="flex items-center space-x-6">
 <nav class="flex space-x-6">
     <a href="/" class="nav-link active text-blue-600 hover:text-blue-800 transition">
 <i class="fas fa-home mr-1"></i>首页
     </a>
-    <a href="http://newsnow.luhui.net/" class="nav-link text-gray-600 hover:text-blue-600 transition">
-<i class="fa fa-meteor mr-1"></i>热闻
+    <a href="./?category=difang" class="nav-link text-gray-600 hover:text-blue-600 transition">
+<i class="fa fa-earth-americas mr-1"></i>地方
     </a>
-    <a href="http://luhui.net/wap/artificialemotions.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
-<i class="fa fa-pencil mr-1"></i>文体
+    <a href="./?category=guizhang" class="nav-link text-gray-600 hover:text-blue-600 transition">
+<i class="fa fa-file-invoice mr-1"></i>规章
     </a>
-    <a href="iframe.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
-<i class="fa fa-satellite mr-1"></i>工具
+    <a href="./?category=anli" class="nav-link text-gray-600 hover:text-blue-600 transition">
+<i class="fa fa-gavel mr-1"></i>案例
     </a>
     <a href="http://luhui.net/wap/about.html" class="nav-link text-gray-600 hover:text-blue-600 transition">
 <i class="fa fa-address-card mr-1"></i>关于
@@ -684,8 +684,8 @@ body.dark-mode #scroll-controls button:hover {
 <div class="container mx-auto px-4">
 <div class="flex flex-col md:flex-row justify-between items-center">
 <div class="mb-4 md:mb-0">
-    <h3 class="text-xl font-bold text-white mb-2">鲁虺法律法规资源网</h3>
-    <p class="text-sm">匯新闻文艺星河,点醒你我无限可能！</p>
+    <h3 class="text-xl font-bold text-white mb-2">鲁虺法网，捍卫公平，遏制邪念滋生！</h3>
+    <p class="text-sm">以法为盾，挡人性之恶；以规为剑，护社会和谐安宁！</p>
 </div>
 <div class="flex space-x-4">
     <a href="/?q=关于我们" class="text-gray-400 hover:text-white transition">
@@ -730,7 +730,7 @@ const config = {
 baseUrl: '',
 imageBasePath: '/luhuitxtcms/',
 itemsPerPage: 12,
-maxDetectionAttempts: 100,
+maxDetectionAttempts: 110,
 timeout: 15000,
 maxSearchHistory: 10,
 categories: {
@@ -758,6 +758,9 @@ categories: {
 'internationallaw': '国际法',
 'legalhistoricaldocuments': '法律史料文献',
 'networkinformatization': '网络信息化类',
+'guizhang': '部门规章制度',
+'difang': '地方性法规',
+'anli': '案例分析',
 'organizational': '法律组织机构机关'
 },
 supportedEncodings: ['utf8', 'gbk', 'gb2312', 'iso-8859-1', 'iso-8859-2', 'big5', 'euc-kr', 'shift-jis'],
@@ -855,7 +858,7 @@ articleSearchLink: document.getElementById('article-search-link')
 
 // 动态更新页面标题（根据分类/文章状态）
 function updatePageTitle() {
-const baseTitle = "鲁虺法律法规图书馆 http://law.luhui.net |法律法规数据库|法律论文|法律图书,法律法规数据库|法律数据库|法规数据库|中国法律门户网站|法律法规资源搜索管理集合器";
+const baseTitle = "鲁虺法网 http://law.luhui.net 鲁虺法律法规网|鲁虺法律法规图书馆|法律法规数据库|法律论文|法律图书,法律法规数据库|法律数据库|法规数据库|中国法律门户网站|法律法规资源搜索管理集合器";
 
 // 校验必要元素
 if (!elements.pageTitle) return;
